@@ -72,6 +72,8 @@ function openVideo(url,title){
     player.controls=true;
     player.autoplay=true;
     player.playsInline=true;
+    player.controlsList='nodownload';
+    player.disablePictureInPicture=true;
     player.preload='metadata';
     player.style.width='100%';
     player.style.height='100%';

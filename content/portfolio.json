@@ -64,6 +64,13 @@
       "url": "https://res.cloudinary.com/l8m2uead/video/upload/v1792525479/Monarch_Labour_Group.mp4",
       "thumbnail": "https://res.cloudinary.com/l8m2uead/image/upload/v1792525538/Monarch_Industrial_Brand_Evolution.png",
       "category": "commercial"
+    },
+    {
+      "title": "Hans: From Boardrooms to Barolo – Cinematic AI Tribute Film",
+      "description": "A cinematic and humorous tribute video celebrating Hans' 18-year leadership journey. Combining AI face-swapping, epic storytelling, creative video editing, sound design, and dynamic transitions, the film showcases his business achievements, adventurous spirit, and exciting new chapter of La Dolce Vita.",
+      "url": "https://res.cloudinary.com/l8m2uead/video/upload/v1792526208/Hans_Retirement_Tribute.mp4",
+      "category": "ai",
+      "thumbnail": "https://res.cloudinary.com/l8m2uead/image/upload/v1792526388/Hans__From_Boardrooms_to_Barolo.png"
     }
   ]
 }

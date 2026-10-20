@@ -1,0 +1,33 @@
+backend:
+  name: github
+  repo: MhdAbdullah98/Mohamed-Abdullah-Portfolio
+  branch: main
+  # Add a working GitHub OAuth authentication service before admin login will work.
+  # base_url: https://YOUR-AUTH-SERVICE.example
+  # auth_endpoint: auth
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+publish: true
+collections:
+  - name: "portfolio"
+    label: "Portfolio Settings and Videos"
+    files:
+      - name: "portfolio"
+        label: "Manage Portfolio"
+        file: "content/portfolio.json"
+        format: "json"
+        fields:
+          - {label: "Showreel URL (YouTube, Vimeo or public Google Drive file)", name: "showreel_url", widget: "string", required: false}
+          - {label: "Contact email", name: "email", widget: "string", required: false}
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            fields:
+              - {label: "Project title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text", required: false}
+              - {label: "Video URL", name: "url", widget: "string"}
+              - {label: "Thumbnail URL", name: "thumbnail", widget: "string", required: false}
+              - label: "Category"
+                name: "category"
+                widget: "select"
+                options: ["commercial", "youtube", "reels", "motion", "ai"]

@@ -1,6 +1,6 @@
 {
   "showreel_url": "",
-  "email": "abdullah.ismathulla@gmail.com",
+  "email": "",
   "projects": [
     {
       "title": "Luxury Auto Transport – Corporate Promotional Video",
@@ -29,6 +29,13 @@
       "description": "Created a professional educational explainer video showcasing how Artificial Intelligence is transforming the investment industry. The video features engaging motion graphics, smooth transitions, animated financial visuals, clear typography, and synchronized voiceover to explain AI-powered investing tools, market analysis, and automated trading in a simple, visually appealing format. Produced for StockEducation.com",
       "thumbnail": "https://img.youtube.com/vi/JQHdbAdBeks/maxresdefault.jpg",
       "category": "commercial"
+    },
+    {
+      "title": "ProLuxe Wellness – The Ritual of Becoming | Cinematic AI Brand Film",
+      "description": "Created a premium cinematic AI brand film for ProLuxe Wellness, blending luxury aesthetics, wellness, and science. The video features AI-generated visuals, elegant transitions, professional storytelling, cinematic color grading, and refined product showcases to highlight the brand’s beauty and wellness philosophy.",
+      "url": "https://youtu.be/8J0IlFUdfcg",
+      "category": "ai",
+      "thumbnail": "https://img.youtube.com/vi/8J0IlFUdfcg/maxresdefault.jpg"
     }
   ]
 }

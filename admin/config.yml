@@ -3,8 +3,8 @@ backend:
   repo: MhdAbdullah98/Mohamed-Abdullah-Portfolio
   branch: main
   # Add a working GitHub OAuth authentication service before admin login will work.
-  # base_url: https://YOUR-AUTH-SERVICE.example
-  # auth_endpoint: auth
+base_url: https://portfolio-github-auth.abdullah-ismathulla.workers.dev
+auth_endpoint: auth
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 publish: true

@@ -157,7 +157,8 @@ function render(){
       commercial:'COMMERCIAL',
       youtube:'YOUTUBE',
       reels:'REELS & SHORTS',
-      motion:'MOTION GRAPHICS'
+      motion:'MOTION GRAPHICS',
+      wedding:'WEDDING & EVENT VIDEOS'
     })[p.category]||'VIDEO EDITING';
 
     const title=document.createElement('strong');

@@ -30,4 +30,4 @@ collections:
               - label: "Category"
                 name: "category"
                 widget: "select"
-                options: ["commercial", "youtube", "reels", "motion", "ai"]
+                options: ["commercial", "youtube", "reels", "motion", "ai", "wedding"]

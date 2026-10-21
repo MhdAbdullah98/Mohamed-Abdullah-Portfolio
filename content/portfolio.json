@@ -106,6 +106,13 @@
       "url": "https://res.cloudinary.com/l8m2uead/video/upload/v1792580692/Swash_Corporate_Film.mp4",
       "category": "ai",
       "thumbnail": "https://res.cloudinary.com/l8m2uead/image/upload/v1792580820/Swash_Invented_Together__Innovation_in_Motion.png"
+    },
+    {
+      "category": "reels",
+      "title": "CARCO S.A. – Cinematic Construction Brand Teaser",
+      "description": "A premium cinematic brand teaser featuring architectural visuals, smooth transitions, dramatic sound design, and elegant typography. Edited with dark color grading and subtle orange accents to highlight CARCO S.A.'s brand identity, precision, and trust.",
+      "url": "https://res.cloudinary.com/l8m2uead/video/upload/v1792580995/CARCO_S.A._Cinematic_video.mp4",
+      "thumbnail": "https://res.cloudinary.com/l8m2uead/image/upload/v1792587625/Carco_S.A._Cinematic_Construction_Teaser.png"
     }
   ]
 }

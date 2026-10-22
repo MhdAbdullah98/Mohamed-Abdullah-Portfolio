@@ -84,6 +84,10 @@ function openVideo(url,title){
     player.setAttribute('aria-label',title);
   }else{
     player=document.createElement('iframe');
+    player.style.width='100%';
+    player.style.height='100%';
+    player.style.border='0';
+    player.style.display='block';
     player.src=v.src;
     player.title=title;
     player.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';

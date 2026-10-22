@@ -176,6 +176,13 @@
       "url": "https://res.cloudinary.com/l8m2uead/video/upload/v1792655766/web_design_owl_01.mp4",
       "thumbnail": "https://res.cloudinary.com/l8m2uead/image/upload/v1792655807/Smarter_Websites_Stronger_Business.png",
       "category": "reels"
+    },
+    {
+      "category": "wedding",
+      "url": "https://youtu.be/PV4vrYRobnI",
+      "thumbnail": "https://res.cloudinary.com/l8m2uead/image/upload/v1792694922/Vertex_Awards_2025_Gala_Highlights.png",
+      "description": "A professionally edited event highlight video showcasing the Vertex Education awards ceremony, capturing memorable moments, celebrations, and achievements through smooth transitions, dynamic cuts, and engaging visuals.",
+      "title": "Vertex Education – Event Awards Highlight Video"
     }
   ]
 }

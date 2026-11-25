@@ -211,19 +211,52 @@ fetch('./content/portfolio.json',{cache:'no-store'})
 
   const show=safeUrl(data.showreel_url||'');
 
-  if(show){
-    const a=$('#showreelLink');
-    a.href=show;
-    a.removeAttribute('target');
+  if (show) {
+  const info = videoInfo(show);
+  const container = $('#showreelPlayer');
 
-    a.querySelector('strong').textContent='WATCH MY SHOWREEL';
-    a.querySelector('small').textContent='Play showreel ▶';
+  if (info && container) {
+    let player;
 
-    a.addEventListener('click',e=>{
-      e.preventDefault();
-      openVideo(show,'Mohamed Abdullah Showreel');
-    });
+    if (info.type === 'video') {
+      player = document.createElement('video');
+      player.src = info.src;
+      player.autoplay = true;
+      player.muted = true;
+      player.loop = true;
+      player.playsInline = true;
+      player.controls = true;
+      player.preload = 'metadata';
+      player.style.width = '100%';
+      player.style.height = '100%';
+      player.style.objectFit = 'cover';
+
+    } else if (
+      info.type === 'iframe' &&
+      (show.includes('youtube.com') ||
+       show.includes('youtu.be') ||
+       show.includes('vimeo.com'))
+    ) {
+      player = document.createElement('iframe');
+
+      const separator = info.src.includes('?') ? '&' : '?';
+      player.src = info.src + separator +
+        'autoplay=1&mute=1&loop=1&controls=1' +
+        (info.src.includes('youtube') ?
+          '&playlist=' + info.src.split('/').pop() : '');
+
+      player.allow = 'autoplay; encrypted-media; fullscreen';
+      player.allowFullscreen = true;
+      player.style.width = '100%';
+      player.style.height = '100%';
+      player.style.border = '0';
+    }
+
+    if (player) {
+      container.replaceChildren(player);
+    }
   }
+}
 
   if(data.email&&/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email)){
     $('#emailLink').href='mailto:'+encodeURIComponent(data.email)+'?subject=Video%20Editing%20Project%20Inquiry';

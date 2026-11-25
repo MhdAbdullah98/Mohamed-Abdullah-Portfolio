@@ -57,6 +57,33 @@
     border: 0;
   }
 }
+
+/* Showreel Autoplay Player */
+#showreelLink {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  min-height: 0;
+  overflow: hidden;
+  background: #000;
+  padding: 0;
+  display: block;
+}
+
+#showreelPlayer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#showreelPlayer video,
+#showreelPlayer iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 </style></head><body><header class="container nav"><a href="#home" class="brand">MOHAMED<span>.</span>ABDULLAH</a><nav class="links"><a href="#work">WORK</a><a href="#services">SERVICES</a><a href="#about">ABOUT</a><a href="#contact">CONTACT</a></nav><a class="navcta" href="#contact">LET'S TALK ↗</a></header><main><section class="hero" id="home"><div class="hero-art"></div><div class="container hero-content"><div class="eyebrow">Independent Video Editor & Visual Storyteller</div><h1>Stories shaped<br>in <em>every frame.</em></h1><p class="intro">Precision editing, cinematic pacing, and compelling visuals. Turning raw footage into work that captures attention and stays with your audience.</p><div class="actions"><a class="btn" href="#work">Explore my work ↗</a><a class="btn outline" href="#showreel">Watch showreel ▶</a></div><div class="stats"><span><i class="dot"></i> CINEMATIC STORYTELLING</span><span><i class="dot"></i> CREATIVE VIDEO EDITING</span></div></div></section><section class="section container" id="showreel"><div class="section-head"><div><div class="eyebrow">01 / THE HIGHLIGHT</div><h2>Motion. Emotion. Impact.</h2></div><p class="sub">A quick look at the energy, detail, and storytelling behind the edit.</p></div>
 <div class="showreel" id="showreelLink">
   <div id="showreelPlayer" style="width:100%;height:100%;"></div>
